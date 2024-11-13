@@ -31,6 +31,49 @@ body {
   font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  font-size: 4em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.logo-image {
+  height: 1em; /* Adjust height as needed */
+  margin-right: 10px; /* Space between image and text */
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+  color: #00b0ff;
+}
+
 /* .flip-card-container */
 .flip-card-container {
   --hue: 150;
