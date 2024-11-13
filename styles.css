@@ -89,6 +89,15 @@ body {
     margin-bottom: 40px;
 }
 
+/* Video Styles */
+.video {
+    width: 1000px;
+    height: 500px;
+    margin-top: 141px;
+    position: fixed;
+    margin-left: 800px;
+  }
+
 /* Footer Styles */
 footer {
     position: absolute;
