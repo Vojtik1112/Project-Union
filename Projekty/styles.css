@@ -17,58 +17,18 @@
   box-sizing: border-box;
 }
 
-/* Navbar Styles */
-.navbar {
-    display: flex;
-    justify-content: space-between; /* Space between logo and nav */
-    align-items: center;
-    padding: 20px 40px;  /* Add horizontal padding for spacing */
-    position: fixed;  /* Fixed to the top */
-    width: 100%;
-    top: 0;            /* Positioned at the top of the viewport */
-    z-index: 10;
-    background: hsl(220, 10%, 12%); /* Ensure navbar has a background to stand out */
-}
-
 /* body */
 body {
-    min-height: 100vh;
-    padding-top: 80px; /* Add padding to avoid overlap with the navbar */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background: hsl(220, 10%, 12%);
-    font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
-}
+  min-height: 100vh;
+  padding: 40px;
 
-/* Navbar Logo */
-.navbar .logo {
-    font-size: 2em;
-    font-weight: 700;
-    color: #ffffff;
-}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
-/* Navbar Menu */
-.navbar nav ul {
-    display: flex;          /* Display items in a row */
-    gap: 20px;              /* Space between items */
-    list-style: none;       /* Remove default bullet points */
-    margin: 0;              /* Remove default margin */
-    padding: 0;             /* Remove default padding */
-}
-
-.navbar nav ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.2em;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: color 0.3s;
-}
-
-.navbar nav ul li a:hover {
-    color: #999999; /* Add a hover effect */
+  background: hsl(220, 10%, 12%);
+  font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* .flip-card-container */
@@ -175,6 +135,11 @@ figcaption {
   right: 12px;
 
   color: var(--white-1);
+  background: hsla(var(--hue), 25%, 10%, .5);
+}
+
+/* .img-bg */
+.img-bg {
   background: hsla(var(--hue), 25%, 10%, .5);
 }
 
@@ -395,7 +360,7 @@ button:focus+.design-container {
   position: fixed;
   bottom: 20px;
   left: 20px;
-  color: hsl(220, 10%, 12%);
+  color: hsla(0, 0%, 100%, .6);
   font-size: 16px;
   font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
 }
