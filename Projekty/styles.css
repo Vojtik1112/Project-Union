@@ -395,7 +395,7 @@ button:focus+.design-container {
   position: fixed;
   bottom: 20px;
   left: 20px;
-  color: hsla(0, 0%, 100%, .6);
+  color: hsl(220, 10%, 12%);
   font-size: 16px;
   font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
 }
